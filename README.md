@@ -30,6 +30,25 @@ The dataset contains historical UK house price data across different areas and t
 
 Because the raw CSV file is large, it is not committed directly to this repository. The dataset can be downloaded from the GOV.UK UK House Price Index data downloads page.
 
+
+## Selected Data Analysis Problem
+
+The topic selected for this project is the UK housing market, using the UK House Price Index dataset.
+
+The data analysis problem is:
+
+**Can official UK house price data be cleaned and prepared for a supervised machine learning model that predicts average house prices?**
+
+This is a suitable problem because the dataset is publicly available, relevant to real-world sectors such as finance, mortgage lending, property technology, and public-sector planning, and can be completed within the scope of this project.
+
+The intended machine learning task is a regression problem, where the target variable is:
+
+`AveragePrice`
+
+The project will focus on preparing the dataset for modeling by inspecting the data, handling missing values, transforming date columns, selecting useful features, removing unsuitable columns, encoding categorical variables, and creating training and testing datasets.
+
+
+
 ## Machine Learning Task
 
 The intended machine learning task is a supervised regression problem.
