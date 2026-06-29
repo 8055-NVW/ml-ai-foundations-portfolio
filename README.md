@@ -30,6 +30,24 @@ The dataset contains historical UK house price data across different areas and t
 
 Because the raw CSV file is large, it is not committed directly to this repository. The dataset can be downloaded from the GOV.UK UK House Price Index data downloads page.
 
+## Data Collection
+
+The dataset selected for this project is the UK House Price Index full CSV file.
+
+The data was collected from the official GOV.UK UK House Price Index reports collection. GOV.UK provides aggregated UK House Price Index data in CSV format, including full data downloads for each monthly release.
+
+For this project, the downloaded file is:
+
+`UK-HPI-full-file-2026-04.csv`
+
+It has been renamed locally to:
+
+`data/uk_hpi_full.csv`
+
+The raw CSV file is approximately 33 MB, so it is not committed directly to this repository. Instead, the README documents the source and filename so the dataset can be downloaded again if needed.
+
+Source: GOV.UK UK House Price Index reports collection.
+
 
 ## Selected Data Analysis Problem
 
