@@ -125,6 +125,19 @@ ml-ai-foundations-portfolio/
 └── .gitignore
 ```
 
-## Current Status
+## Summary of Findings
 
-Project setup and scoping are complete. The next stage is loading and inspecting the dataset in the Jupyter Notebook.
+This project prepared UK House Price Index data for future machine learning modeling.
+
+The target variable selected for future modeling is `AveragePrice`, making this a supervised regression problem.
+
+The exploratory analysis found that:
+
+* Average house prices vary widely across the dataset
+* House prices show a clear upward trend over time
+* The highest average prices are concentrated in specific areas, especially London boroughs
+* Sales volume does not show a simple linear relationship with average house price
+* Time and location are likely to be important features for future modeling
+
+The cleaned dataset is ready for the next stage of the machine learning workflow, including feature encoding, train/test splitting, and regression modeling.
+
